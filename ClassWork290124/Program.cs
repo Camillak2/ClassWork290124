@@ -10,6 +10,7 @@ namespace ClassWork290124
     {
         static void Main(string[] args)
         {
+            CRUD.CreateUser(new User("Fedot", "udaloymolodec@mail.ru", 55));
         }
     }
 }
